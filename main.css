@@ -1,0 +1,88 @@
+body{
+
+	margin: 0px;
+	display: grid;
+	grid-template-areas:
+		"fejléc"
+		"fő"
+		"lábléc"
+	;
+	grid-template-rows: max-content 1fr max-content;
+	min-height:100vh;
+
+}
+header{
+	background-color: black;
+	color: white;
+	grid-area: fejléc;
+
+}
+main{
+	background-color: navy;
+	color: white;
+	grid-area: fő;
+
+}
+footer{
+	background-color: gray;
+	color: white;
+	grid-area: lábléc;
+}
+img{
+	max-width: 100%;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+/*--header--*/
+header{
+	text-align: right;	
+	line-height: 3rem;
+	font-size: 1.5rem;
+	padding: .5rem 1rem;
+}
+header .fejléc_menü{
+	margin: 0.5rem;
+	margin-right: 30px;
+}
+header .fejléc_menü:hover{
+	color: lightblue;
+	text-decoration: underline;
+
+}
+header .fejléc_jobb{
+	display: inline-block;
+}
+header .fejléc_bal{
+	float: left;
+}
+/*--lábléc--*/
+footer{
+	text-align: right;
+	line-height: 2rem;
+	font-size: 1rem;
+	padding: .5rem 1rem;
+}
+footer .fb_gomb{
+	max-height: 30px;
+	max-width: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+
+}
+}
+footer .Fb_text{
+	text-align: right;
+	padding-left: 3rem;
+}
+footer .lábléc_bal{
+	float: left;
+}
+footer .lánléc_jobb{
+	display: inline-block;
+}
+
+
+
